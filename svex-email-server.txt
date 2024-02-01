@@ -1,0 +1,19 @@
+Email
+
+Incoming Mail / IMAP
+Our imap servers can be found at imap.purelymail.com with port 993. Make sure your app connects with SSL/TLS.
+
+Outgoing Mail / SMTP
+SMTP takes care of delivering your messages. Use smtp.purelymail.com with port 465. This should be SSL/TLS.
+
+If your client only supports STARTTLS, use port 587 with STARTTLS enabled.
+
+Incoming Mail / POP3
+Make sure you really need POP3 before using it! POP3 usually deletes messages from our servers after you download them. It can be found at: pop3.purelymail.com with port 995. Make sure your app connects with SSL/TLS.
+
+ManageSieve 
+If you'd like to configure filters via Sieve, a ManageSieve implementation is available at mailserver.purelymail.com with port 4190. Use STARTTLS.
+
+Credentials:
+svex@worldofmail.com
+Jkesds987&*A9uusd
